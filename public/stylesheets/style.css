@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-image: url('https://www.stallionglobal.com/uploads/links/Title_68.jpg');
+    background-repeat: no-repeat;
+    background-size:  1980px 1280px;
+    background-position: center center;
+    background-attachment: fixed;;
+}
+
+.content{
+    
+    background-color: rgb(170, 159, 159) !important;
+}

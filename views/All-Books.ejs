@@ -1,0 +1,23 @@
+<%- include('header') %> 
+    <h1 class="text-center">All Books Available</h1>
+    <%- include('sidebar') %>
+    
+    
+    <div class=" col-10 col-sm-8 col-lg-8 bg-dark text-primary content">
+        <ul>
+            <% for(let j=0;j<bookList.length;j++){%>
+                <li><a  href="/show-book/<%= bookList[j]._id %> ">
+            <%= bookList[j].name %>   
+               </a> </li>
+    
+            <% } %>  
+        </ul>
+    </div>
+</div>
+</div>
+
+    
+
+
+
+<%- include('footer') %>

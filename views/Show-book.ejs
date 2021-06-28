@@ -1,0 +1,35 @@
+<style>
+    body{
+        background-image: url('https://www.stallionglobal.com/uploads/links/Title_68.jpg');
+    background-repeat: no-repeat;
+    background-size:  1980px 1280px;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+</style>    
+    
+    <%- include('header') %>
+<h1 class="text-center">Book Detail</h1>
+
+<%- include('sidebar') %> 
+<div class="col-lg-8">
+    <h3>Book Name - <%= bookFound.name %></h3>
+    <h3>Author - <%= bookFound.author  %> </h3>
+    <form method="GET" action="/delete/<%= bookFound.name  %> ">
+        <input type="submit" value="Delete">
+    </form>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<%- include('footer') %> 
